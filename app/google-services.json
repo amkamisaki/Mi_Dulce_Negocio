@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825286142330",
+    "project_id": "mi-dulce-negocio",
+    "storage_bucket": "mi-dulce-negocio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825286142330:android:29887b2e57976fa1ff4ec3",
+        "android_client_info": {
+          "package_name": "com.example.midulcenegocio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825286142330-b6qbebmhvs3cvple2vhl833kfhf1bnpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWSr0dspGEASFuLByLH8z2cQxIptWGYx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825286142330-b6qbebmhvs3cvple2vhl833kfhf1bnpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
