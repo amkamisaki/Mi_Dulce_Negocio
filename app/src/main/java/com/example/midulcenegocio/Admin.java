@@ -1,20 +1,23 @@
+package com.example.midulcenegocio;
+
 public class Admin {
 
     private int id;
     private String name;
     private String password;
+    private Order order
 
-   /* public receiveOrder (Order order) {
+   public receiveOrder (order) {
         order.status = "received";
     }
-    public rejectOrder (Order order) {
+    public rejectOrder (order) {
         order.status = "rejected";
     }
-    public sendOrder (Order order) {
+    public sendOrder (order) {
         order.status = "sent";
     }
-    public finishOrder(Order order) {
+    public finishOrder(order) {
         order.status = "finished"
-    }*/
+    }
 
 }
