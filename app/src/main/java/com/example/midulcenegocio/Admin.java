@@ -5,7 +5,7 @@ public class Admin {
     private int id;
     private String name;
     private String password;
-    private Order order
+   /* private Order order
 
    public receiveOrder (order) {
         order.status = "received";
@@ -18,6 +18,6 @@ public class Admin {
     }
     public finishOrder(order) {
         order.status = "finished"
-    }
+    }*/
 
 }

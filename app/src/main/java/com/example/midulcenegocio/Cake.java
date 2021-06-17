@@ -4,13 +4,13 @@ public class Cake {
     public int id;
     public String name;
 
-    public add() {
+    public void add() {
 
     }
-    public edit() {
+    public void edit() {
 
     }
-    public delete() {
+    public void delete() {
 
     }
 
