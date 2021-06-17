@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btnLogin;
     private Button btnCancel;
-    private Button btnSignIn;
+    private Button btnSignUp;
     private EditText edtEmail;
     private EditText edtPassword;
     private FirebaseAuth mAuth;
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnCancel = (Button) findViewById(R.id.btnCancel);
-        btnSignIn = (Button) findViewById(R.id.btnSignIn);
+        btnSignUp = (Button) findViewById(R.id.btnSignUp);
         edtEmail = (EditText) findViewById(R.id.edtEmail);
         edtPassword = (EditText) findViewById(R.id.edtPassword);
         mAuth = FirebaseAuth.getInstance();
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        btnSignIn.setOnClickListener(new View.OnClickListener() {
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 addUser(edtEmail.getText().toString(), edtPassword.getText().toString());
