@@ -12,7 +12,7 @@ import com.example.midulcenegocio.adminPanel.adminOrderFragment;
 import com.example.midulcenegocio.adminPanel.adminPendingOrderFragment;
 import com.example.midulcenegocio.adminPanel.adminProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
+//Main menu for admin
 public class AdminMenu extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     @Override

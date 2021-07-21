@@ -1,5 +1,5 @@
 package com.example.midulcenegocio.customerPanel;
-
+//Customer information with its methods
 public class Customer {
 
     private String Email,Password;

@@ -1,5 +1,5 @@
 package com.example.midulcenegocio.adminPanel;
-
+//Admin class with email and password
 public class Admin {
 
     private String Email, Password;

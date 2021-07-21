@@ -23,7 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
-
+// Main Login for Customers
 public class MainActivity extends AppCompatActivity {
 
     private Button btnLogin;
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
                                     hashMap1.put("Password", password);
                                 }
                             });
-                            //FirebaseUser user = mAuth.getCurrentUser();
+
                             Toast.makeText(MainActivity.this, "New account created with success", Toast.LENGTH_SHORT).show();
 
                             openFirstActivity();

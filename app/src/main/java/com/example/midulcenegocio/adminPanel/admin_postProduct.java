@@ -39,7 +39,7 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.util.UUID;
-
+//Post products with image, product name, category and price
 public class admin_postProduct extends AppCompatActivity {
 
     ImageButton imageButton;

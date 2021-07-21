@@ -28,7 +28,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-
+//Home fragment for admin
 public class adminHomeFragment extends Fragment {
 
     RecyclerView recyclerView;

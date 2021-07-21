@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.midulcenegocio.R;
-
+//Post products fragment for admin
 public class adminProfileFragment extends Fragment {
 
     Button postProduct;

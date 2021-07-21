@@ -1,5 +1,5 @@
 package com.example.midulcenegocio.adminPanel;
-
+//Class with product information
 public class ProductDetails {
 
     public String Product,Category,Price,ImageURL,RandomUID,Adminid;

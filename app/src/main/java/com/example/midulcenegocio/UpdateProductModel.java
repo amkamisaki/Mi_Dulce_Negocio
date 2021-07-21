@@ -1,5 +1,6 @@
 package com.example.midulcenegocio;
 
+//Product information with image, price, category, admin id
 public class UpdateProductModel {
 
     String Product,RandomUID,Category,Price,ImageURL,AdminId;

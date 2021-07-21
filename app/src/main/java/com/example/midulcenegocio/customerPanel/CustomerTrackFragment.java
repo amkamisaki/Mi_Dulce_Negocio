@@ -1,4 +1,4 @@
-package com.example.midulcenegocio.adminPanel;
+package com.example.midulcenegocio.customerPanel;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,15 +10,14 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.midulcenegocio.R;
+//Track orders fragment for customer
+public class CustomerTrackFragment extends Fragment {
 
-//Order fragment for admin
-public class adminOrderFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
-        View v = inflater.inflate(R.layout.fragment_admin_orders,null);
-        getActivity().setTitle("New Orders");
+        View v = inflater.inflate(R.layout.fragment_customer_track, null);
+        getActivity().setTitle("Track Order");
         return v;
     }
 }

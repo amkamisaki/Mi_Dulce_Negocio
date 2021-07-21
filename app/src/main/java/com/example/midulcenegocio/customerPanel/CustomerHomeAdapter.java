@@ -16,7 +16,7 @@ import com.example.midulcenegocio.UpdateProductModel;
 import com.google.firebase.database.DatabaseReference;
 
 import java.util.List;
-
+//Product list for customers
 public class CustomerHomeAdapter extends RecyclerView.Adapter<CustomerHomeAdapter.ViewHolder> {
 
     private Context mcontext;

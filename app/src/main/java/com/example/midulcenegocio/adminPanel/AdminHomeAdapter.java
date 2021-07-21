@@ -14,7 +14,7 @@ import com.example.midulcenegocio.R;
 import com.example.midulcenegocio.UpdateProductModel;
 
 import java.util.List;
-
+//Class holds list of products.
 public class AdminHomeAdapter extends RecyclerView.Adapter<AdminHomeAdapter.ViewHolder>  {
     private Context mcont;
     private List<UpdateProductModel> updateProductModelList;

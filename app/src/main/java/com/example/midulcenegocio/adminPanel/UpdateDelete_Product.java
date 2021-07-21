@@ -44,7 +44,7 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
 import java.util.UUID;
-
+//Update or delete products
 public class UpdateDelete_Product extends AppCompatActivity {
 
     TextInputLayout cat,pri;

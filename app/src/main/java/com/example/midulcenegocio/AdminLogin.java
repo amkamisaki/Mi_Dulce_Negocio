@@ -20,7 +20,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
-
+//Admin login with email, password and admin code
 public class AdminLogin extends AppCompatActivity {
 
     private Button btnAdmLogin;
